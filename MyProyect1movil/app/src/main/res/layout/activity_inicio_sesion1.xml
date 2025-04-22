@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paisaje"
+    tools:context=".inicioSesion1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="103dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/Registro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/REGISTRODEUSUARIO"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Datos2"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/Datos"
+            android:textAlignment="center"
+            android:textColor="@color/gris"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Nombre1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:textAlignment="center"
+            android:drawableStart="@drawable/baseline_account_circle_24"
+            android:drawablePadding="5dp"
+            android:background="@drawable/rectanlogo"
+            android:hint="@string/name"
+            android:text="@string/name"
+            android:textColor="#6B4543"
+            android:inputType="text"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/correo"
+            android:layout_width="match_parent"
+            android:maxWidth="488dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:drawableStart="@drawable/baseline_email_24"
+            android:hint="@string/correo"
+            android:text="@string/correo"
+            android:textColor="#6B4543"
+
+            android:background="@drawable/rectanlogo"
+            android:ems="10"
+            android:inputType="text"
+            android:textAlignment="center"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/contraseña"
+            android:layout_width="match_parent"
+            android:maxWidth="488dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:textColor="@color/cafeClaro"
+            android:background="@drawable/rectanlogo"
+            android:hint="@string/contraseña"
+            android:drawableEnd="@drawable/baseline_visibility_off_24"
+            android:ems="10"
+            android:text="@string/contraseña"
+            android:inputType="text"
+            android:textAlignment="center"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/confirmar"
+            android:layout_width="match_parent"
+            android:maxWidth="488dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:textColor="@color/cafeClaro"
+            android:background="@drawable/rectanlogo"
+            android:drawableEnd="@drawable/baseline_visibility_off_24"
+            android:hint="@string/confirmar"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/confirmar"
+            android:textAlignment="center"
+            tools:ignore="Autofill" />
+
+        <Button
+            android:id="@+id/registrar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:maxWidth="488dp"
+            android:background="@color/contraste"
+            android:shadowColor="@color/cafeMarron"
+            android:text="@string/RegistrarButon"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorLink="#1D1A1D"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/cuenta"
+            android:textAlignment="center"
+            android:textColor="@color/gris"
+            android:textColorLink="#E98181" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

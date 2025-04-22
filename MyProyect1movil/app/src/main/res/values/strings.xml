@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MyProyect1movil</string>
+    <string name="iniciarsesion">"Te invitamos a disfrutar de una experiencia única."</string>
+    <string name="Inicio">INICIAR  SESION</string>
+    <string name="Registrar">REGISTRAR USUARIO</string>
+    <string name="title_activity_login_registrar_us">loginRegistrarUs</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="butonIngr">INGRESAR</string>
+    <string name="InicioSession">INICIO DE SESION</string>
+    <string name="usuario">Usuario</string>
+    <string name="usuario1">usuarioMen</string>
+    <string name="contarsea">Contraseña</string>
+    <string name="usuariowww">Usuario</string>
+    <string name="olvidoContr">¿Has olvidado tu contraseña?</string>
+    <string name="REGISTRODEUSUARIO">REGISTRO DE USUARIO</string>
+    <string name="Datos">¡Completa Los Siguientes Datos!</string>
+    <string name="name">Nombre Completo</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="confirmar">Confirmar Contraseña</string>
+    <string name="RegistrarButon">REGISTRAR</string>
+    <string name="cuenta">¿Ya tienes cuenta?</string>
+    <string name="nombredeusuario">Nombre de usuario</string>
+    <string name="confirmarnombredeusuario">Confirmar nombre de usuario</string>
+    <string name="confirmacionregistro">CONFIRMACION DE REGISTRO</string>
+
+</resources>

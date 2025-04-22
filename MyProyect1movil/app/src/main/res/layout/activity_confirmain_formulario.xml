@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/comida"
+    tools:context=".confirmainFormulario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/ConfirmacionRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/caliste"
+            android:letterSpacing="0.2"
+            android:maxWidth="488dp"
+            android:padding="15dp"
+            android:text="@string/confirmacionregistro"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/Nombre1"
+            android:layout_width="match_parent"
+            android:maxWidth="488dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/rectanlogo"
+            android:hint="@string/name"
+            android:textColor="#4A3F2A"
+            android:inputType="text"
+            android:textAlignment="center"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="match_parent"
+            android:maxWidth="488dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/rectanlogo"
+            android:hint="@string/nombredeusuario"
+            android:textAlignment="center"
+            android:ems="10"
+            android:inputType="text"
+             />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:maxWidth="488dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/rectanlogo"
+            android:id="@+id/ConfirmarNombre"
+            android:textAlignment="center"
+            android:hint="@string/confirmarnombredeusuario"
+            android:ems="10"
+            android:inputType="text"
+             />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:maxWidth="488dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/rectanlogo"
+            android:hint="@string/name"
+            android:textColor="#4A3F2A"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:text="Button" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
