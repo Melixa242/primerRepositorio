@@ -30,5 +30,10 @@
     <string name="nombredeusuario">Nombre de usuario</string>
     <string name="confirmarnombredeusuario">Confirmar nombre de usuario</string>
     <string name="confirmacionregistro">CONFIRMACION DE REGISTRO</string>
+    <string name="confirmarRegu">CONFIRMAR REGISTRO</string>
+    <string name="introducir">"Introducir Codigo "</string>
+    <string name="NombreUsuario">Usuario</string>
+    <string name="correoElec">Correo Electronico</string>
+    <string name="radiobutton">Enviar Codigo al correo</string>
 
 </resources>
